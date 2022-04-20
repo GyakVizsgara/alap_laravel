@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body,
+article,
+div {
+    margin: 10px;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+div div {
+    float: right;
+}
+
+
+a {
+    background-color: transparent
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-family: system-ui;
+    line-height: 1.5
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+
+@media screen and (max-width: 800px) {
+
+    tr {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1px solid black;
+    }
+    thead{
+        display: none;
+    }
+}
